@@ -4,7 +4,7 @@ After=network.target
 Author=Cody
 
 [Service]
-Type=simple
+Type=forking
 # Edit WorkingDirectory, User and Group as needed
 WorkingDirectory=/var/www/ghost
 User=ghost
