@@ -1,6 +1,10 @@
 [Unit]
 Description=MyScript
 
+[Timer]
+OnCalendar=weekly
+Persistent=true
+
 [Service]
 Type=simple
 ExecStart=/usr/local/bin/myscript
